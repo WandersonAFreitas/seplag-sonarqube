@@ -72,15 +72,15 @@ namespace PrimeService
 
         // --------------
         // Parameters should be passed in the correct order
-        public double Divide(int divisor, int dividend)
+        public double Divide(double divisor, double dividend)
         {
-            return divisor / dividend;
+            return divisor/dividend;
         }
 
         public void DoTheThing()
         {
-            int divisor = 15;
-            int dividend = 5;
+            double divisor = 15;
+            double dividend = 5;
 
             double result = Divide(dividend, divisor);  // Noncompliant; operation succeeds, but result is unexpected
                                                         //...
