@@ -4,9 +4,9 @@ namespace PrimeService
 {
     public class PrimeService
     {
-        const string CO_TESTE = "Teste";
-        const string teste1 = "Teste";
-        //string teste = "teste";
+        // Remove the unused private field
+        // const string CO_TESTE = "Teste";
+        
         public bool IsPrime(int candidate) 
         { 
             if (candidate < 2) 
@@ -22,7 +22,22 @@ namespace PrimeService
                 } 
             } 
             return true;  
+        }
+
+        public bool IsTeste(int condidate)
+        {
+            return condidate == 2;
         } 
+
+        public bool IsTeste(int condidate, bool validar)
+        {
+            if (validar)
+                return false;
+
+            return condidate == 2;
+        } 
+
+        // Codigo comentado
     }
 
 }
