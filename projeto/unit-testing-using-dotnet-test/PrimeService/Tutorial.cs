@@ -74,7 +74,7 @@ namespace PrimeService
         // Parameters should be passed in the correct order
         public double Divide(double divisor, double dividend)
         {
-            return divisor/dividend;
+            return divisor / dividend;
         }
 
         public void DoTheThing()
@@ -88,9 +88,15 @@ namespace PrimeService
 
         // --------------
         // Unused method parameters should be removed
-        public int Add(int a, int b)
+        void DoSomething(int a, int b) // "b" is unused
         {
-            return a;
+            Console.Write(a);
+        }
+
+        void DoSomething2(int a) // value of "a" is unused
+        {
+            a = 10;
+            Console.Write(a);
         }
     }
 }
