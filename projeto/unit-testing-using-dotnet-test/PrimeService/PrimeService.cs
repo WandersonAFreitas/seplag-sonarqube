@@ -4,7 +4,9 @@ namespace PrimeService
 {
     public class PrimeService
     {
-        string teste = "teste";
+        const string CO_TESTE = "Teste";
+        const string teste1 = "Teste";
+        //string teste = "teste";
         public bool IsPrime(int candidate) 
         { 
             if (candidate < 2) 
