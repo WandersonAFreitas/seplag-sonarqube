@@ -13,7 +13,7 @@ namespace PrimeService
         public bool IsPrime(int candidate) 
         { 
             Console.Write(CO_TESTE);
-            
+
             if (candidate < 2) 
             { 
                 return false; 
@@ -28,6 +28,7 @@ namespace PrimeService
             } 
             return true;  
         }
+        
 
         public bool IsTeste(int condidate)
         {
