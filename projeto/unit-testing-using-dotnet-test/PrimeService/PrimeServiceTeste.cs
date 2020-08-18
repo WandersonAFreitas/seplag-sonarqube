@@ -6,8 +6,6 @@ namespace PrimeServiceTeste
     {       
         public bool IsPrime(int candidate) 
         { 
-            Console.Write(CO_TESTE);
-
             if (candidate < 2) 
             { 
                 return false; 
