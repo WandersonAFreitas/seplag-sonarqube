@@ -5,10 +5,15 @@ namespace PrimeService
     public class PrimeService
     {
         // Remove the unused private field
-        // const string CO_TESTE = "Teste";
+        const string CO_TESTE = "Teste";
+
+        // Remove this commented out code
+        // const string COMENTARIO_DE_CODIGO = "Teste";
         
         public bool IsPrime(int candidate) 
         { 
+            Console.Write(CO_TESTE);
+            
             if (candidate < 2) 
             { 
                 return false; 
@@ -36,8 +41,6 @@ namespace PrimeService
 
             return condidate == 2;
         } 
-
-        // Codigo comentado
     }
 
 }
