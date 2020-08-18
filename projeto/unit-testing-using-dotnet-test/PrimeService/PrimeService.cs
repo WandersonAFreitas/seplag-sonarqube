@@ -4,7 +4,7 @@ namespace PrimeService
 {
     public class PrimeService
     {
-        private string teste = "teste";
+        string teste = "teste";
         public bool IsPrime(int candidate) 
         { 
             if (candidate < 2) 
