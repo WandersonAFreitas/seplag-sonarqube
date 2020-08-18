@@ -1,15 +1,9 @@
 ﻿using System;
 
-namespace PrimeService
+namespace PrimeServiceTeste
 {
-    public class PrimeService
-    {
-        // Remove the unused private field
-        const string CO_TESTE = "Teste";
-
-        // Remove this commented out code
-        // const string COMENTARIO_DE_CODIGO = "Teste";
-        
+    public class PrimeServiceTeste
+    {       
         public bool IsPrime(int candidate) 
         { 
             Console.Write(CO_TESTE);
@@ -28,17 +22,6 @@ namespace PrimeService
             } 
             return true;  
         }
-
-
-        public bool IsTeste(int condidate)
-        {
-            return condidate == 2;
-        } 
-
-        public bool IsTeste1(int condidate)
-        {
-            return condidate == 2;
-        } 
     }
 
 }
