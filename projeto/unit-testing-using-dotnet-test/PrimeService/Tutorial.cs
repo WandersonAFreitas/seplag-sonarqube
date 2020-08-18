@@ -85,5 +85,12 @@ namespace PrimeService
             double result = Divide(dividend, divisor);  // Noncompliant; operation succeeds, but result is unexpected
                                                         //...
         }
+
+        // --------------
+        // Unused method parameters should be removed
+        public int Add(int a, int b)
+        {
+            return a;
+        }
     }
 }
