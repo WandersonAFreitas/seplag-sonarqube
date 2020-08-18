@@ -9,36 +9,39 @@ namespace PrimeService
 
         // Remove this commented out code
         // const string COMENTARIO_DE_CODIGO = "Teste";
-        
-        public bool IsPrime(int candidate) 
-        { 
+
+        public bool IsPrime(int candidate)
+        {
             Console.Write(CO_TESTE);
 
-            if (candidate < 2) 
-            { 
-                return false; 
+            if (candidate < 2)
+            {
+                return false;
             }
 
-            for (var divisor = 2; divisor <= Math.Sqrt(candidate); divisor++) 
-            { 
-                if (candidate % divisor == 0) 
-                { 
-                    return false; 
-                } 
-            } 
-            return true;  
+            for (var divisor = 2; divisor <= Math.Sqrt(candidate); divisor++)
+            {
+                if (candidate % divisor == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
+        private const string CODE = "bounteous";
+        private int callCount = 0;
 
-        public bool IsTeste(int condidate)
+        public string GetCode()
         {
-            return condidate == 2;
-        } 
+            callCount++;
+            return CODE;
+        }
 
-        public bool IsTeste1(int condidate)
+        public string GetName()  // Noncompliant
         {
-            return condidate == 2;
-        } 
+            callCount++;
+            return CODE;
+        }
     }
-
 }
