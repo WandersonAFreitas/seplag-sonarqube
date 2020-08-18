@@ -69,5 +69,21 @@ namespace PrimeService
                 Console.Write("Mesmo param");
             }
         }
+
+        // --------------
+        // Parameters should be passed in the correct order
+        public double Divide(int divisor, int dividend)
+        {
+            return divisor / dividend;
+        }
+
+        public void DoTheThing()
+        {
+            int divisor = 15;
+            int dividend = 5;
+
+            double result = Divide(dividend, divisor);  // Noncompliant; operation succeeds, but result is unexpected
+                                                        //...
+        }
     }
 }
