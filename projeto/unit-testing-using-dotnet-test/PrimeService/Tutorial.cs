@@ -46,9 +46,28 @@ namespace PrimeService
             return CODE;
         }
 
+        // --------------
         public void GetTeste(string Teste)
         {
             Console.Write(Teste);
+        }
+
+        // --------------
+        // Related "if/else if" statements should not have the same condition
+        public void teste(int param)
+        {
+            if (param == 1)
+            {
+                Console.Write("Param 1");
+            }
+            else if (param == 2)
+            {
+                Console.Write("Param 2");
+            }
+            else if (param == 1) // Não conforme
+            {
+                Console.Write("Mesmo param");
+            }
         }
     }
 }

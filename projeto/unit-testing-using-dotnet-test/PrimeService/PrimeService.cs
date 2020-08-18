@@ -20,30 +20,5 @@ namespace PrimeService
             }
             return true;
         }
-
-        // --------------
-        // Remove the unused private field
-        const string CO_TESTE = "Teste";
-
-        // --------------
-        // Remove this commented out code
-        // const string COMENTARIO_DE_CODIGO = "Teste";
-
-        // --------------
-        // Update this method so that its implementation is not identical
-        private const string CODE = "bounteous";
-        private int callCount = 0;
-
-        public string GetCode()
-        {
-            callCount++;
-            return CODE;
-        }
-
-        public string GetName()  // Noncompliant
-        {
-            callCount++;
-            return CODE;
-        }
     }
 }
