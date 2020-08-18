@@ -4,16 +4,8 @@ namespace PrimeService
 {
     public class PrimeService
     {
-        // Remove the unused private field
-        const string CO_TESTE = "Teste";
-
-        // Remove this commented out code
-        // const string COMENTARIO_DE_CODIGO = "Teste";
-
         public bool IsPrime(int candidate)
         {
-            Console.Write(CO_TESTE);
-
             if (candidate < 2)
             {
                 return false;
@@ -29,6 +21,16 @@ namespace PrimeService
             return true;
         }
 
+        // --------------
+        // Remove the unused private field
+        const string CO_TESTE = "Teste";
+
+        // --------------
+        // Remove this commented out code
+        // const string COMENTARIO_DE_CODIGO = "Teste";
+
+        // --------------
+        // Update this method so that its implementation is not identical
         private const string CODE = "bounteous";
         private int callCount = 0;
 
