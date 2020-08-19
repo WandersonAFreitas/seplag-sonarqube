@@ -8,8 +8,8 @@
 
 #### Que tipo de valor o SonarQube traz?
 
-* Ajuda a detectar muitos problemas no código, graças à sua filosofia de focar no novo código, ajuda a corrigir os problemas assim que eles aparecem.
-* Manter o código limpo, simples e fácil de ler também é muito mais fácil com SonarQube, pois muitas regras também se concentram naqueles aspectos que começam a render muito depois de algum tempo.
+* Ajuda a detectar muitos problemas no código, ajuda a corrigir os problemas assim que eles aparecem.
+* Manter o código limpo, simples e fácil de ler, pois muitas regras também se concentram naqueles aspectos que começam a render muito depois de algum tempo.
 
 ### Tecnologias Utilizadas
 
