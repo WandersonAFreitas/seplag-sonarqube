@@ -11,28 +11,40 @@
 #### Que tipo de valor o SonarQube traz?
 
 * Ajuda a detectar muitos problemas no código, graças à sua filosofia de focar no novo código, ajuda a corrigir os problemas assim que eles aparecem.
-
 * Manter o código limpo, simples e fácil de ler também é muito mais fácil com SonarQube, pois muitas regras também se concentram naqueles aspectos que começam a render muito depois de algum tempo.
+
+### Tecnologias Utilizadas
+
+Para a realização do projeto, foram utilizadas as seguintes tecnologias
+
+* [DotNet Core](https://dotnet.microsoft.com)
+* [Docker](https://www.docker.com/get-started)
+* [Git](https://git-scm.com/downloads)
+* [Git](https://gitlab.com)
+* [SonarQube](https://www.sonarqube.org/developer-edition/?gclid=CjwKCAjwm_P5BRAhEiwAwRzSO3PQgoTSHjLDoTm1MjtxgbK7WjOraPwKTAea4xH74_Jkvf4fjztRbhoCS7gQAvD_BwE)
 
 ### Step
 
-#### Pré-requisitos
-* DotNet Core - https://dotnet.microsoft.com
-* Docker - https://www.docker.com/get-started
-* Git - https://git-scm.com/downloads
+* Acessar o site [Play With Docker](https://labs.play-with-docker.com)
+    * Requisito ter um usuário no Docker Hub.
+* Clique em "Start".
+* Clique em "Add New Instance".
+* Selecione o terminal e execute os comandos abaixo.
+    * git clone https://gitlab.com/WandersonAFreitas/seplag-sonarqube  
+    * cd seplag-sonarqube
+    * docker-compose up -d
+        * Esse comando ira criar dois docker um para SonarQube e outra para banco de dados Postgres. 
+    * docker ps
+        * Esse comando permitirá verificar se os contêineres foram inicializado.
+* Acesso o Play With Docker
+* Clique em Open Port e informe a porta 9000.
+* Será aberto uma nova guia do browser com link do SonarQube.
+* Iniciar a sessão do SonarQube.
+    * Usuário: admin
+    * Senha: admin
 
-### Ininiando a aplicação:
-* Acessar o [Play With Docker](https://labs.play-with-docker.com)
-* Iniciar uma sessão no PWD.
-* Comandos.
-    * Realizar o clone do projeto: 
-        * git clone https://gitlab.com/WandersonAFreitas/seplag-sonarqube  
-    * Permitir baixar e executar os contêineres. O arquivo dockerfile criará dois contêiner, uma para SonarQube e outra para banco de dados Postgres:
-        * docker-compose up -d 
-    * Verificar se os contêineres estão em execução:
-        * docker ps
-    * Acessar o link disponibilizado pelo PWD.
-    * Realizar o login do SonarQube.
+* Acessar o link disponibilizado pelo PWD.
+* Realizar o login do SonarQube.
         * Usuário: admin Senha: admin
     * Gerar um token para o projeto.
         * SeplagSonarQube
