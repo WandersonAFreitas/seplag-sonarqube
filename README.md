@@ -2,8 +2,6 @@
 
 ## Desenvolvimento de uma POC do SonarQube para Seplag
 
-<!-- 027a3ae7d8fc2747608ffe85c4bac2e3fb6fa34f -->
-
 #### O que é SonarQube?
 
 * SonarQube é uma plataforma de código aberto para realizar revisões automáticas com análise estática de código para detectar bugs, possíveis problemas e vulnerabilidades de segurança. O SonarQube permite análisar mais de 25 linguagens de programação.
@@ -54,11 +52,9 @@ Para a realização do projeto, foram utilizadas as seguintes tecnologias
     * SONAR_URL - Informe o link do PWD (Exemplo: http://ip172-18-0-161-bsui16lim9m000d4eri0-9000.direct.labs.play-with-docker.com/)
 * Acesse o CI / CD > Pipelines
 * Clique em Run Pipelines
-
-
-
-
+* Após o termino da análise, acesso o site do SonarQube
 
 #### Links: 
-    * https://medium.com/@cristianvitortrucco/utilizando-o-sonarqube-e-10-minutos-aa9de5749fb3
-    * https://blog.setapp.pl/sonarqube_introduction
+
+* https://medium.com/@cristianvitortrucco/utilizando-o-sonarqube-e-10-minutos-aa9de5749fb3
+* https://blog.setapp.pl/sonarqube_introduction
