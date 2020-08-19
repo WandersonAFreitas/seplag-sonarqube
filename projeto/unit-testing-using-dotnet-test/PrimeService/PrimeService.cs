@@ -4,6 +4,10 @@ namespace PrimeService
 {
     public class PrimeService
     {
+        // --------------
+        // Remove the unused private field
+        const string CO_TESTE = "Teste";
+
         public bool IsPrime(int candidate)
         {
             if (candidate < 2)
