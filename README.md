@@ -5,7 +5,7 @@
 #### O que é SonarQube?
 
 * SonarQube é uma plataforma de código aberto para realizar revisões automáticas com análise estática de código para detectar bugs, possíveis problemas e vulnerabilidades de segurança. 
-* O SonarQube permite análisar mais de 25 linguagens de programação.
+* O SonarQube permite analisar mais de 25 linguagens de programação.
 
 #### Que tipo de valor o SonarQube traz?
 
@@ -50,12 +50,12 @@ Para a realização do projeto, foram utilizadas as seguintes tecnologias
 * Informe nome do projeto "SeplagSonarQube"
 * Acesso o projeto do GitLab
 * Acesse o Settings > CI / CD > Variables
-* Editar as variaveis abaixo.
+* Editar as variáveis abaixo.
     * SONAR_TOKEN - Informe o novo Token gerado no SonarQube.
     * SONAR_URL - Informe o link do PWD. Exemplo: http://ip172-18-0-161-bsui16lim9m000d4eri0-9000.direct.labs.play-with-docker.com
 * Acesse o CI / CD > Pipelines
 * Clique em Run Pipelines
-* Após o termino da análise, acesso o site do SonarQube
+* Após o término da análise, acesso o site do SonarQube
 
 #### Links: 
 
