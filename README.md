@@ -10,9 +10,9 @@
 #### Que tipo de valor o SonarQube traz?
 
 * Ajuda a detectar problemas no código.
-* Manter o código limpo.
-* Manter o código mais simples.
-* Manter o código mais fácil de ler.
+* Ajuda manter o código limpo.
+* Ajuda manter o código mais simples.
+* Ajuda manter o código mais fácil de ler.
 
 ### Tecnologias Utilizadas
 
