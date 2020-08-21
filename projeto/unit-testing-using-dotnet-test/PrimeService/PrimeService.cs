@@ -21,5 +21,8 @@ namespace PrimeService
             return true;
         }
         
+        // --------------
+        // Remove the unused private field
+        const string CO_TESTE = "Teste";
     }
 }

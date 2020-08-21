@@ -20,6 +20,7 @@ Para a realização do projeto, foram utilizadas as seguintes tecnologias
 
 * [DotNet Core](https://dotnet.microsoft.com)
 * [Docker](https://www.docker.com/get-started)
+* [Postgres](https://www.postgresql.org/)
 * [Git](https://git-scm.com/downloads)
 * [GitLab](https://gitlab.com)
 * [SonarQube](https://www.sonarqube.org)
