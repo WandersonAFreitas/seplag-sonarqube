@@ -1,7 +1,7 @@
 image: mcr.microsoft.com/dotnet/core/sdk:3.1.101-bionic
 
 stages:
-  # - test
+  - test
   - code_analysis
 
 test:
