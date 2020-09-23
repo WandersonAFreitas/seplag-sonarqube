@@ -1,19 +1,19 @@
 image: mcr.microsoft.com/dotnet/core/sdk:3.1.101-bionic
 
 stages:
-  - test
+  # - test
   - code_analysis
 
-test:
-  stage: test
-  variables:
-    test_path: "projeto/unit-testing-using-dotnet-test/PrimeService.Tests/"
-  script:
-    - "cd $test_path"
-    - "dotnet build"
-    - "dotnet test"
-  only:
-      - master
+# test:
+#   stage: test
+#   variables:
+#     test_path: "projeto/unit-testing-using-dotnet-test/PrimeService.Tests/"
+#   script:
+#     - "cd $test_path"
+#     - "dotnet build"
+#     - "dotnet test"
+#   only:
+      # - master
 
 sonar:
   stage: code_analysis
